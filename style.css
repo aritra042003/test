@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.nav-part {
+    background-color: rgb(89, 90, 90);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 28vw;
+    color: white;
+}
+
+.logo {
+    height: 9vh;
+    width: 8.58vw;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    font-size: 1.7vw;
+    cursor: pointer;
+}
