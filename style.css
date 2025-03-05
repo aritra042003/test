@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main {
+height:100vh;
+width:100%;
+background-color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+main div {
+  height: 70vh;
+  width:60vh;
+  background-color: whitesmoke;
+  
+  border:3px solid grey;
+  border-radius: 30px;
+
+}
+
+main div img {
+  margin-top: 10px;
+  height: 40vh;
+  width:56vh;
+  margin-inline: 9px;
+  border-radius: 50px;
+}
+
+main div p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+main div button {
+  margin-block: 40px;
+  margin-inline: 150px;
+  height: 30px;
+  width:80px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
